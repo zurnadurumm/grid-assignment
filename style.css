@@ -46,7 +46,7 @@
   }
   body{
     color: white;
-    background: rgb(43, 43, 43);
+    background: rgb(32,32,32);
     font-family: sans-serif;
     display: grid;
     justify-content: center;
@@ -61,7 +61,7 @@
     width: 100% ;
     padding: 2.5rem 1rem;
     
-    background: rgb(255, 123, 0);
+    background: coral;
 
   }
   .head__name{
@@ -108,4 +108,28 @@ nav{
 .nav__link{
     color:rgb(255, 123, 0);
     
+}
+main {
+    display: grid;
+    gap: 2rem;
+}
+.cats{
+    width: 300px;
+    max-height: 190px;
+    border-radius: 0.25rem;
+    border: 4px rgba(255, 255, 255, 0.719) solid ;
+
+    
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap: 0.3rem;
+}
+footer{
+    background: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
 }
